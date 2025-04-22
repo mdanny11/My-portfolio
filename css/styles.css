@@ -111,3 +111,29 @@ footer {
     padding: 0 10px;
   }
 }
+/* Hamburger button */
+#menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hide nav by default on small screens */
+@media (max-width: 768px) {
+  #menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+}
