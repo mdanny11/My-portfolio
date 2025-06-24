@@ -1,11 +1,4 @@
-/* CSS File: style.css */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-}
+/* Form Status Styles */
 
 /* Form Status Styles */
 .form-status {
@@ -362,6 +355,28 @@ section {
   color: #fff;
   font-size: 0.9rem;
 }
+
+/* Profile Picture Styles */
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1.5rem;
+  border: 3px solid var(--primary-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.profile-picture:hover {
+  transform: scale(1.05);
+}
+
+/* Dark mode adjustments for profile picture */
+body.dark .profile-picture {
+  border-color: var(--secondary-color);
+}
+
 .skill-list {
   display: flex;
   flex-wrap: wrap;
