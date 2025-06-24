@@ -3,47 +3,259 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Danny's Portfolio</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <title>Mazimpaka Danny | Software Engineering Student</title>
+  <meta name="description" content="Software Engineering student specializing in web development, cloud technologies, cybersecurity, and technical support. Portfolio showcasing projects and skills." />
+  <meta name="keywords" content="software engineering, web development, cybersecurity, portfolio, full-stack, spring boot, react, flutter" />
+  <meta property="og:title" content="Mazimpaka Danny | Software Engineering Student" />
+  <meta property="og:description" content="Dedicated Software Engineering student specializing in web development, cloud technologies, cybersecurity, and technical support" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://your-domain.com/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mazimpaka Danny | Software Engineering Student" />
+  <meta name="twitter:description" content="Dedicated Software Engineering student specializing in web development, cloud technologies, cybersecurity, and technical support" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
-<body>
+<body class="light">
+  <div class="toggle-container">
+    <label for="modeToggle" class="mode-label" id="modeLabel">Light Mode</label>
+    <div class="toggle-switch">
+      <input type="checkbox" id="modeToggle" class="mode-toggle">
+      <span class="slider"></span>
+    </div>
+  </div>
 
-  <!-- Header -->
-  <header>
-  <h1>Danny Mazimpaka</h1>
-  
-  <button id="menu-toggle">&#9776;</button> <!-- Hamburger icon -->
+  <header class="hero">
+    <div class="glass">
+      <h1>👋 Hi, I'm <span class="highlight">Mazimpaka Danny</span></h1>
+      <p class="typewriter">Building secure and user-friendly applications and websites </p>
+      <a href="CV_Danny.pdf" download class="cv-btn">Download CV</a>
+    </div>
+  </header>
 
-  <nav id="navbar">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-
-  <!-- About Section -->
-  <section id="about">
+  <section class="about">
     <h2>About Me</h2>
-    <p>I’m a Software Engineering student passionate about building web and mobile apps, currently learning full-stack development and cybersecurity.</p>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Dedicated Software Engineering student with expertise in web development, cloud technologies, cybersecurity, and technical support. Passionate about building secure and user-friendly applications.</p>
+      </div>
+      <div class="contact-info">
+        <ul class="contact-list">
+          <li><i class="fas fa-map-marker-alt"></i> Kigali, Rwanda</li>
+          <li><i class="fas fa-envelope"></i> mdanny892@gmail.com</li>
+          <li><i class="fas fa-phone"></i> +250-078-628-0873</li>
+          <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mazimpaka-danny-ab71b3369" target="_blank">linkedin.com/in/mazimpaka-danny-ab71b3369</a></li>
+          <li><i class="fab fa-github"></i> <a href="https://github.com/mdanny11" target="_blank">github.com/mdanny11</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="experience">
+      <h3>Experience</h3>
+      <div class="experience-item">
+        <h4>Data Moderator</h4>
+        <span class="company">Temu</span>
+        <span class="date">Feb 2024 - Present</span>
+        <ul>
+          <li>Review and moderate user-submitted content ensuring it aligns with company policies</li>
+          <li>Maintain high accuracy and speed in flagging harmful or inappropriate data</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h4>Customer Executive</h4>
+        <span class="company">MTN Rwanda</span>
+        <span class="date">Oct 2022 - Jan 2024</span>
+        <ul>
+          <li>Provided customer support via call center, resolving user issues and billing inquiries</li>
+          <li>Promoted MTN services, upsold products, and supported user onboarding</li>
+          <li>Handled over 100+ inquiries daily with professionalism and confidentiality</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="education">
+      <h3>Education</h3>
+      <div class="education-item">
+        <h4>Bachelor of Science in Software Engineering</h4>
+        <span class="institution">Adventist University of Central Africa (AUCA)</span>
+        <span class="date">2022 - 2025</span>
+      </div>
+    </div>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills">
+  <section class="skills">
     <h2>Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React & Spring Boot</li>
-      <li>Linux, Git, GitHub</li>
-      <li>Microsoft 365, Azure (L2 Support)</li>
-    </ul>
+    <div class="skill-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Java</div>
+      <div class="skill">Python</div>
+      <div class="skill">Dart</div>
+      <div class="skill">Spring Boot</div>
+      <div class="skill">React.js</div>
+      <div class="skill">Angular (basic)</div>
+      <div class="skill">Flutter (beginner)</div>
+      <div class="skill">PostgreSQL</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">MongoDB</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">VS Code</div>
+      <div class="skill">IntelliJ</div>
+      <div class="skill">Postman</div>
+      <div class="skill">Docker</div>
+      <div class="skill">Azure (beginner)</div>
+      <div class="skill">GitHub Actions</div>
+      <div class="skill">Netlify</div>
+      <div class="skill">Suricata</div>
+      <div class="skill">Firewall Configuration</div>
+      <div class="skill">DVWA</div>
+      <div class="skill">SSL/TLS</div>
+      <div class="skill">pfSense</div>
+      <div class="skill">Mobile Development</div>
+    </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
+  <section class="projects">
     <h2>Projects</h2>
-    <div>
-      <h3>To-Do List App</
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Rwanda Premier League Management System</h3>
+        <p>Full-stack web application for managing teams, fixtures, results, and standings</p>
+        <p><strong>Technologies:</strong> Spring Boot, React.js, PostgreSQL</p>
+        <p><strong>Features:</strong> Team management, fixture scheduling, results tracking, standings display</p>
+      </div>
+      <div class="project-card">
+        <h3>Personal Portfolio Website</h3>
+        <p>Responsive portfolio with dark/light mode toggle and modern UI</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <p><strong>Features:</strong> Responsive design, animated sections, skill showcase, project gallery</p>
+      </div>
+      <div class="project-card">
+        <h3>Linux for Cybersecurity</h3>
+        <p>Comprehensive DVWA exploitation and security implementation project</p>
+        <p><strong>Technologies:</strong> DVWA, Firewall, SSL/TLS, pfSense</p>
+        <p><strong>Features:</strong> Security layer implementation, firewall rules, SSL/TLS configuration</p>
+      </div>
+      <div class="project-card">
+        <h3>Apache2 & Suricata Network Security Setup</h3>
+        <p>Complete network security setup with IDS/IPS and firewall rules</p>
+        <p><strong>Technologies:</strong> Apache2, Suricata, UFW/IPTables</p>
+        <p><strong>Features:</strong> Web server configuration, IDS/IPS setup, security monitoring</p>
+      </div>
+      <div class="project-card">
+        <h3>Disk Monitoring Script</h3>
+        <p>Multi-platform Linux script for disk usage monitoring and alerting</p>
+        <p><strong>Technologies:</strong> Bash, Linux Systems</p>
+        <p><strong>Features:</strong> Cross-platform compatibility (Ubuntu, RedHat, Kali), threshold-based alerts</p>
+      </div>
+      <div class="project-card">
+        <h3>Mobile App Prototype</h3>
+        <p>Flutter-based mobile application with calculator and authentication</p>
+        <p><strong>Technologies:</strong> Flutter, Dart</p>
+        <p><strong>Features:</strong> Calculator interface, login/signup pages, dashboard</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline">
+    <h2>My Journey</h2>
+    <div class="timeline-container">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>2022</h3>
+          <p>Started Software Engineering at AUCA</p>
+          <p>Began learning web development and cybersecurity</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>2023</h3>
+          <p>Built Rwanda Premier League Management System</p>
+          <p>Completed multiple mini-projects in backend and cybersecurity</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>2024</h3>
+          <p>Joined Temu as Data Moderator</p>
+          <p>Selected for Software Development internship interview</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>2025</h3>
+          <p>Launched personal portfolio</p>
+          <p>Applied for Team Lead at Temu</p>
+          <p>Built GitHub repos with proper workflows</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm" method="POST" action="https://formspree.io/f/your-form-id" novalidate>
+      <div class="form-group">
+        <input type="text" id="name" name="name" required>
+        <label for="name">Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" required>
+        <label for="email">Email</label>
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" required></textarea>
+        <label for="message">Message</label>
+      </div>
+      <button type="submit" aria-label="Send Message">Send</button>
+      <div id="formStatus" class="form-status"></div>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-text">
+        <p>Crafted with ❤️ by Danny &copy; 2025</p>
+      </div>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/mazimpaka-danny-ab71b3369" target="_blank" class="social-link">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/mdanny11" target="_blank" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/mdanny11" target="_blank" class="social-link">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/mdanny11" target="_blank" class="social-link">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://dev.to/mdanny11" target="_blank" class="social-link">
+          <i class="fab fa-dev"></i>
+        </a>
+        <a href="https://medium.com/@mdanny11" target="_blank" class="social-link">
+          <i class="fab fa-medium"></i>
+        </a>
+        <a href="https://stackoverflow.com/users/mdanny11" target="_blank" class="social-link">
+          <i class="fab fa-stack-overflow"></i>
+        </a>
+        <a href="https://codepen.io/mdanny11" target="_blank" class="social-link">
+          <i class="fab fa-codepen"></i>
+        </a>
+        <a href="https://www.hackerrank.com/profile/mdanny892" target="_blank" class="social-link">
+          <i class="fab fa-hackerrank"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
